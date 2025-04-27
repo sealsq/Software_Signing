@@ -1,0 +1,6 @@
+#Below are two steps to use OpenSSL to validate the signature.
+#Step 1: Export the public key from the signing certificate file.
+openssl x509 -in certificate.crt -pubkey -noout -out certificate.pub.pem
+
+#Step 2: Validate the signature.
+openssl dgst -sha256 -verify certificate.pub.pem -signature TestAppRaspberry_1.signature TestAppRaspberry_1.bin

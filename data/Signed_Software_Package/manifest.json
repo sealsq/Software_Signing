@@ -1,0 +1,17 @@
+{
+  "manifest-data": {
+    "vendor-id": "SEALSQ IoT",
+    "product-id": 2,
+    "product-name": "TestAppRaspberry",
+    "component-name": "TestAppRaspberry",
+    "priority": 0,
+    "fw-version-id": 1,
+    "fw-version-name": "1",
+    "fw-format": "bin",
+    "fw-size": 71120,
+    "fw-hash": "SHA256",
+    "fw-url": "https://ines.certifyiddemo.com/fwupdates/testappraspberry.bin?organizationId=2040&productId=2&versionId=1"
+  },
+  "certificate": "MIIB6TCCAY+gAwIBAgIUIAZ2+OWo6qeADz1PIKeL/85Au4owCgYIKoZIzj0EAwIwOzEVMBMGA1UEAwwMREVWSU9UU1VCQ0ExMRUwEwYDVQQKDAxXSVNFS0VZIERFTU8xCzAJBgNVBAYTAkNIMB4XDTI1MDMwNDAwMDAwMFoXDTQ0MTAzMTE1MTA0NVowQDEgMB4GA1UEAwwXU2lnbmluZ19UZXN0QXBwLVJiZXJyeTQxDzANBgNVBAoMBlNlYWxTUTELMAkGA1UEBhMCRlIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARp+Ine3DlLxFdP7KWjUskCADmF/Kgoe8NSKwx/7K7gbgXA8GIaGFdehKNCUao4Cdviy51ZX04pik7FGb7DKRbko2wwajBDBgNVHR8EPDA6MDigNqA0hjJodHRwOi8vcHVibGljLndpc2VrZXlkZW1vLmNvbS9jcmwvZGV2aW90c3ViY2ExLmNybDATBgNVHSUEDDAKBggrBgEFBQcDAzAOBgNVHQ8BAf8EBAMCB4AwCgYIKoZIzj0EAwIDSAAwRQIgdHuqboOkdDhbmL5SrZa+Qdjx6KSk6nbWvpTDJur3XKQCIQDo8mm7dLA1oC0huOhA9WpOlsOVrEsriImqyH+CJ7ye9Q==",
+  "manifest-signature": "MEYCIQCGS+qPG8GwJCUzBRfVd7XxrQsQnZO9uxPJ/NtL8yMHggIhAOAz5Y4HdRGusasoxpHB0fYciXWwO3widF0ufsab2nUt"
+}
