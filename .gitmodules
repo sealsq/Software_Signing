@@ -1,0 +1,3 @@
+[submodule "lib/Seal_SQ_Ines_SDK"]
+	path = lib/Seal_SQ_Ines_SDK
+	url = https://github.com/sealsq/ines_sdk_c.git
