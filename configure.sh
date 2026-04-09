@@ -21,12 +21,9 @@ Help()
    echo
 }
 
-checkoutLibs()
-{   
-   pushd "lib/Seal_SQ_Ines_SDK"
-   #echo "----------| Checkout to INeS VERSION : ${INES_SDK_TAG} |----------"
-   #git checkout ${INES_SDK_TAG}   
-   popd
+copyVaultic()
+{  
+   cp include/vaultic_tls_config_292.h lib/Seal_SQ_Ines_SDK/lib/libVaultIC/292/DEVKIT_VIC292_TLS_RPI/VaultIC-TLS/vaultic_tls/vaultic_tls-2xx/src/vaultic_tls_config.h 
 }
 
 install()
@@ -34,8 +31,8 @@ install()
    sudo apt-get update
    sudo apt-get --yes --force-yes install cmake	
    sudo apt-get --yes --force-yes install python3
+   copyVaultic
    configurelib
-   checkoutLibs
    echo done, remove this file if you want to do first setup again > ${FIRST_CONFIG_FILE}
 
 
